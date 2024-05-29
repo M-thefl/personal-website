@@ -10,14 +10,15 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
-const __dirname = process.cwd(); // مسیر فعلی پروژه
+const __dirname = process.cwd(); // The current path of the project
 
-// دیگر کدها...
+
 
 app.use(express.static(path.resolve(__dirname)));
 
 app.post('/send-message', async (req, res) => {
-    const { name, email, message } = req.body; // از بدنه درخواست مقادیر name، email و message را دریافت می‌کنیم
+    const { name, email, message } = req.body; // We receive name, email and message values ​​from the request body
+
 
     const payload = {
         username: 'fl', // Set the webhook username here

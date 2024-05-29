@@ -1,0 +1,122 @@
+/* utf-8 */
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+  --simple: #121414; 
+  --x:#222222;
+  --txt: #363636;
+  --maincolor: #da1616;
+}
+::-moz-selection {
+  color: var(--maincolor);
+  background-color: var(--white);
+}
+
+::selection {
+  color: var(--maincolor);
+  background-color: var(--white);
+}
+body {
+  background-color: var(--simple);
+  font-family: "Josefin Sans", Arial;
+  color: var(--txt);
+  overflow: scroll;
+}
+.txt{
+  color: var(--txt);
+}
+.maincolor {
+  color: var(--maincolor);
+  transition: 1.5s;
+}
+span a {
+  text-decoration: none;
+  all: unset;
+}
+span a:hover {
+  all: unset;
+}
+span {
+  font-size: 2em;
+}
+.logo {
+  width: 100%;
+  height: 90%;
+  border-radius: 20%;
+  object-fit: cover;
+  object-position: 25% 25%;
+}
+.test {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  background-color: var(--maincolor);
+  transition: 1.5s;
+  width: 50px;
+  height: 50px;
+  color: rgb(7, 0, 0);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  -webkit-animation: spin 2s linear infinite; 
+  animation: spin 2s linear infinite; 
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.project:hover {
+  transition: 1.5s;
+  border: 1px solid
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contact form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contact form input,
+#contact form textarea,
+#contact form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #333;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+#contact form button {
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+#contact form button:hover {
+  background-color: #0056b3;
+}
+
+/* utf-8---------------------------------------------------------- */

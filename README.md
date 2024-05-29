@@ -15,8 +15,10 @@ This project is a simple personal website template that includes sections such a
  1. Modify the index.html file to customize the content of your personal website.
  2. Customize the CSS styles in the styles.css file to match your preferences.
  3. Configure the Discord webhook URL in the .env file: ``DISCORD_WEBHOOK_URL=<your-discord-webhook-url>``
- 4. Run the server: `node server.js`
- 5. Access the website in your browser: `http://localhost:3000/`
+ ![image](https://github.com/M-thefl/personal-website/assets/123509083/84c67e41-92fc-4ee1-a8d4-a025ad95caa3)
+
+ 5. Run the server: `node server.js`
+ 6. Access the website in your browser: `http://localhost:3000/`
 
 
 # ✨ Features
